@@ -1,0 +1,477 @@
+## Key learnings, experience and your main selling points.
+
+This section will be used to write your profile for your CV. So record your key learnings and experience on a weekly basis so we can track your progress and learning.
+
+| Number      |           Subject              | What you have learnt this week and how might you describe this at an interview?   |
+| :---        |            :----:              | :---  |
+| 1  | Collaboration                           |  I learned that collaboration is essential for success in any field. It is important to be able to work effectively with others, share ideas, and build consensus. I also learned that collaboration can be challenging, but it is also very rewarding. In an interview, I would describe my experience with collaboration and how it has helped me to succeed in my previous roles. I would also highlight my skills in communication, teamwork, and conflict resolution.  |
+| 2  | Communication                           | I learned that communication is essential for any job. It is important to be able to communicate effectively with both technical and non-technical audiences. I also learned that communication is not just about speaking and writing, but also about listening and understanding. In an interview, I would describe my experience with communication and how it has helped me to succeed in my previous roles. I would also highlight my skills in public speaking, writing, and listening.   |
+| 3  | Automation/CICD                         | I learned about the benefits of automation and continuous integration/continuous delivery (CI/CD). I learned that automation can help to improve efficiency, reduce errors, and free up time for more creative work. I also learned that CI/CD can help to improve the quality of software by ensuring that it is always built and tested in the same way. In an interview, I would describe my experience with automation and CI/CD and how it has helped me to improve the quality and efficiency of my work.   |
+| 4  | AWS                                     | I learned about the different services offered by Amazon Web Services (AWS). I learned that AWS can be used to build, deploy, and scale applications quickly and easily. I also learned that AWS can be used to store data, analyze data, and create machine learning models. In an interview, I would describe my experience with AWS and how it has helped me to build and deploy scalable and reliable applications.   |
+| 5  | Kubernetes                              | I learned about Kubernetes, which is an open-source container orchestration system. I learned that Kubernetes can be used to automate the deployment, scaling, and management of containerized applications. I also learned that Kubernetes can be used to improve the reliability and availability of applications. In an interview, I would describe my experience with Kubernetes and how it has helped me to deploy and manage containerized applications.   |
+| 6  | Terraform                               | I learned about Terraform, which is an open-source infrastructure as code software tool. I learned that Terraform can be used to create, manage, and update infrastructure resources across multiple cloud providers. I also learned that Terraform can be used to automate the provisioning of infrastructure. In an interview, I would describe my experience with Terraform and how it has helped me to provision and manage infrastructure.   |
+| 7  | Linux                                   | I learned about the basics of Linux, including how to use the command line, manage files and directories, and install and configure software. I also learned about the different distributions of Linux and how to choose the right one for a particular task. In an interview, I would describe my experience with Linux and how it has helped me to solve problems and automate tasks.   |
+| 8  | System and Application Design           | I  learned about the principles of system and application design. I learned about how to design systems that are scalable, reliable, and secure. I also learned about how to design applications that are user-friendly and efficient. In an interview, I would describe my experience with system and application design and how it has helped me to build successful systems and applications.   |
+| 9  | Productivity                            | I learned about different productivity tools and techniques. I learned about how to use these tools and techniques to improve my time management, focus, and overall productivity. In an interview, I would describe my experience with productivity and how it has helped me to achieve my goals.   |
+| 10 | Yourself and your abilities             | I learned more about myself and my abilities this week. I learned that I am capable of learning new things quickly and efficiently. I also learned that I am a good communicator and collaborator. In an interview, I would describe my strengths and weaknesses, and how I plan to continue learning and growing.   |
+
+
+## Kubernetes, Docker, Containerisation and Virtualisation
+
+1. What are Kubernetes Operators? 
+Kubernetes Operators extend Kubernetes by automating the management of specific applications or services.
+Operators use custom resources and controllers to define and enforce the desired state of the application.
+They encapsulate operational knowledge and best practices, simplifying complex application deployments.
+Operators enable consistent and reliable application lifecycle management in a declarative manner.
+They enhance automation, scalability, and fault tolerance for stateful applications on Kubernetes.
+
+2. What are Kubernetes CRD?
+Kubernetes Custom Resource Definitions (CRDs) enable the creation of custom resource types in Kubernetes.
+CRDs extend the Kubernetes API to accommodate application-specific concepts and configurations.
+CRDs allow users to define, manage, and interact with custom resources alongside built-in Kubernetes resources.
+CRDs are often used in conjunction with Kubernetes Operators to automate the management of custom resources.
+CRDs provide flexibility and extensibility, empowering users to tailor Kubernetes to their specific application requirements.
+
+3. What are Kubernetes Controllers
+Kubernetes Controllers are control loops that monitor and manage the state of resources in a Kubernetes cluster.
+They ensure the desired state of resources matches the actual state by taking appropriate actions.
+Controllers handle scaling, reconciliation, and lifecycle management of various resources.
+They are implemented as Kubernetes deployments and run as part of the cluster control plane.
+Controllers play a vital role in maintaining stability, reliability, and resilience of applications on Kubernetes.
+
+## Linux administration and shell scripting
+
+1. tar: The tar command is used to create, view, and extract files from tar archives. It combines multiple files into a single archive for easier storage or distribution.
+
+2. rsync: The rsync command is a powerful file synchronization and transfer tool that efficiently copies and synchronizes files between different locations, either locally or over a network.
+
+3. chown: The chown command changes the ownership of files or directories, allowing you to transfer ownership to a different user or group.
+
+4. curl: The curl command is a command-line tool to transfer data to or from a server using various protocols. It supports downloading or uploading files, making HTTP requests, and more.
+
+5. systemctl: The systemctl command is a command used to control and manage systemd services in Linux. It allows starting, stopping, restarting, and checking the status of services.
+
+6. useradd: The useradd command creates a new user account on a Linux system.
+
+7. usermod: The usermod command modifies existing user accounts, allowing you to change user attributes such as username, password, home directory, group membership, and more.
+
+8. ln: The ln command creates links between files or directories. It can create hard links or symbolic links, which provide shortcuts to access files from different locations.
+
+9. chmod: The chmod command changes the permissions of files or directories, controlling who can read, write, or execute them. It can modify permissions for the owner, group, and others.
+
+10. chage: The chage command allows you to change the password aging and expiration settings for user accounts, enforcing password change policies and setting account expiration dates.
+
+11. ssh-keygen -f mykeyfilename -t rsa -b 4096: The provided command generates an SSH key pair using the RSA algorithm with a key size of 4096 bits and saves it to a file named "mykeyfilename". SSH keys are commonly used for secure remote access and authentication to systems.
+
+12. -rwxrwxrwx: User: Read, write, and execute permissions. Group: Read, write, and execute permissions. Others: Read, write, and execute permissions. Numeric Value: 777
+
+-rw-r-xr-x: User: Read and write permissions. Group: Read permissions. Others: Read and execute permissions. Numeric Value: 754
+
+-r--r--r--: User: Read permissions. Group: Read permissions. Others: Read permissions. Numeric Value: 444
+
+13. drwxrwxrwx: Directory
+lrw-r-xr-x: Symbolic link
+
+-r--r--r--: Simple file
+
+
+## CICD, Infrastructure as as Code (IaC), Terraform, Packer and Ansible
+
+
+1. Design the architecture with separate tiers for presentation, application, and data.
+The presentation tier is responsible for interacting with users and displaying the application's user interface. The application tier is responsible for processing user requests and generating responses. The data tier is responsible for storing and retrieving data.
+
+Create a VPC and subnets for each tier, with appropriate network connectivity.
+A VPC is a virtual private network that provides a secure network environment for your AWS resources. Subnets are logical divisions of a VPC. Each tier should be deployed in its own subnet to isolate traffic between the tiers.
+
+Provision EC2 instances for each tier, configure security groups, and consider using load balancers for scalability.
+EC2 instances are virtual machines that can be used to run your application. Security groups control the traffic that can be sent to and from EC2 instances. Load balancers can be used to distribute traffic across multiple EC2 instances to improve performance.
+
+Implement Auto Scaling to adjust the number of instances based on demand.
+Auto Scaling can be used to automatically add or remove EC2 instances based on the demand for your application. This can help to ensure that your application has the resources it needs to handle peak traffic without becoming overloaded.
+
+Set up an RDS database in a private subnet for data storage.
+RDS is a fully managed relational database service that makes it easy to set up, operate, and scale a relational database in the cloud. A private subnet is a subnet that is not accessible from the public internet. This helps to protect your data from unauthorized access.
+
+Configure security measures like ACLs, security groups, and IAM roles.
+ACLs (Access Control Lists) control who can access your resources. Security groups control the traffic that can be sent to and from your EC2 instances. IAM roles define the permissions that can be granted to users, groups, and applications.
+
+Utilize CloudFront for content delivery to improve performance.
+CloudFront is a content delivery network (CDN) that can be used to improve the performance of your application by caching static content closer to your users.
+
+Monitor infrastructure components with CloudWatch and optimize based on usage patterns.
+CloudWatch is a monitoring service that can be used to collect and track metrics about your AWS resources. This data can be used to identify performance bottlenecks and optimize your infrastructure.
+
+*  Describe how you might build this environment from an automated provisioning pipeline from the tool chain you are familiar with.
+
+Set up Terraform environment and define AWS provider configuration.
+Terraform is an open-source infrastructure as code software tool that enables you to safely and predictably create, change, and improve infrastructure.
+
+To set up Terraform, you will need to:
+
+Install Terraform
+Create a Terraform configuration file
+Define the AWS provider in the Terraform configuration file
+Create VPC, subnets, and configure routing for networking.
+A VPC is a virtual private network that provides a secure network environment for your AWS resources. Subnets are logical divisions of a VPC.
+
+To create a VPC and subnets, you will need to:
+
+Create a VPC
+Create subnets in the VPC
+Configure routing for the subnets
+Provision EC2 instances for each tier, specifying instance types, security groups, and user data.
+EC2 instances are virtual machines that can be used to run your application. Security groups control the traffic that can be sent to and from EC2 instances. User data is a script that is executed when an EC2 instance is launched.
+
+To provision EC2 instances, you will need to:
+
+Specify the instance types for each tier
+Create security groups for each tier
+Create user data for each tier
+Launch EC2 instances for each tier
+Configure Auto Scaling groups to dynamically adjust instance numbers based on demand.
+Auto Scaling groups can be used to automatically add or remove EC2 instances based on the demand for your application. This can help to ensure that your application has the resources it needs to handle peak traffic without becoming overloaded.
+
+To configure Auto Scaling groups, you will need to:
+
+Create Auto Scaling groups for each tier
+Define scaling policies for each Auto Scaling group
+Set up RDS database instance with desired configuration.
+RDS is a fully managed relational database service that makes it easy to set up, operate, and scale a relational database in the cloud.
+
+To set up an RDS database instance, you will need to:
+
+Create an RDS database instance
+Configure the RDS database instance
+Implement security measures using Terraform, such as security groups and IAM roles.
+Security groups control the traffic that can be sent to and from EC2 instances. IAM roles define the permissions that can be granted to users, groups, and applications.
+
+To implement security measures using Terraform, you will need to:
+
+Define security groups for each tier
+Define IAM roles for each tier
+Enable content delivery through CloudFront for improved performance.
+CloudFront is a content delivery network (CDN) that can be used to improve the performance of your application by caching static content closer to your users.
+
+To enable content delivery through CloudFront, you will need to:
+
+Create a CloudFront distribution
+Configure the CloudFront distribution
+Set up monitoring and alerting using CloudWatch.
+CloudWatch is a monitoring service that can be used to collect and track metrics about your AWS resources. This data can be used to identify performance bottlenecks and optimize your infrastructure.
+
+To set up monitoring and alerting using CloudWatch, you will need to:
+
+Create CloudWatch alarms
+Configure CloudWatch alerts
+Apply Terraform configuration to provision the infrastructure.
+Once you have defined your infrastructure in Terraform, you can use the terraform apply command to provision the infrastructure.
+
+
+
+2. Considering question 1 above, how would you re-design the application so that it is both elastic and highly available across the three tiers?
+
+
+Sure, here are some ways to redesign the application to make it both elastic and highly available across the three tiers:
+
+Presentation Tier
+
+Use load balancers to distribute traffic across multiple EC2 instances in the presentation tier. This will help to improve performance and ensure that no single instance is overloaded.
+Use containerization to deploy the application in the presentation tier. This will make it easier to scale the application up or down as needed.
+Application Tier
+
+Containerize the application logic in the application tier. This will make it easier to scale the application up or down as needed.
+Implement auto-scaling and self-healing mechanisms in the application tier. This will help to ensure that the application remains available even if some instances fail.
+Data Tier
+
+Use a managed database service with multi-AZ deployments and read replicas. This will help to ensure that the data is always available even if an instance fails.
+Configure infrastructure across multiple availability zones for high availability. This will help to ensure that the application is always available even if an availability zone fails.
+Monitoring and Automation
+
+Implement monitoring and automation tools to track performance, trigger scaling, and manage the infrastructure stack. This will help to ensure that the application is always running smoothly and efficiently.
+Here are some additional details about each of these steps:
+
+Load Balancing
+
+Load balancers distribute traffic across multiple EC2 instances. This helps to improve performance by preventing any single instance from becoming overloaded. Load balancers can also be used to provide high availability by distributing traffic across instances in different availability zones.
+
+Containerization
+
+Containerization is a way of packaging an application and its dependencies into a single unit that can be easily deployed and managed. Containers are lightweight and portable, making them a good choice for elastic applications.
+
+Auto-Scaling
+
+Auto-scaling is a feature of AWS that automatically adds or removes EC2 instances based on demand. This helps to ensure that your application has the resources it needs to handle peak traffic without becoming overloaded.
+
+Self-Healing
+
+Self-healing is a feature of AWS that automatically restarts EC2 instances that fail. This helps to ensure that your application remains available even if some instances fail.
+
+Managed Database Services
+
+Managed database services are a type of database service that is fully managed by AWS. This means that AWS takes care of all of the tasks associated with running a database, such as provisioning, backups, and security. Managed database services can be a good choice for elastic applications because they are scalable and reliable.
+
+Multi-AZ Deployments
+
+Multi-AZ deployments are a way of deploying a database across multiple availability zones. This helps to ensure that your data is always available even if an availability zone fails.
+
+Read Replicas
+
+Read replicas are copies of a database that are used to improve performance. Read replicas can be used to distribute reads across multiple instances, which can help to improve performance for applications that perform a lot of reads.
+
+Availability Zones
+
+Availability zones are isolated geographic locations within a region. AWS regions are divided into multiple availability zones. Availability zones are designed to be isolated from each other, so if one availability zone fails, the others will remain available.
+
+Monitoring and Automation
+
+Monitoring and automation are essential for managing elastic applications. Monitoring tools can be used to track performance, identify problems, and trigger alerts. Automation tools can be used to automate tasks, such as provisioning and deploying new instances.
+
+
+3. Describe how you would use Maven to build a java application
+
+To use Maven to build a Java application:
+Install Maven on your local machine.
+Maven is a build automation tool that can be used to build and manage Java projects. It can be installed on Windows, Mac, and Linux.
+
+Set up the project structure with source code and test directories.
+Maven projects typically have the following directory structure:
+
+Code snippet
+src
+    main
+       java
+       resources
+    test
+       java
+       resources
+Use code with caution. Learn more
+The main directory contains the source code for the application. The test directory contains the source code for the unit tests.
+
+Create a pom.xml file to define the project's configuration.
+The pom.xml file is the project's configuration file. It contains information about the project's dependencies, plugins, and build settings.
+
+Specify dependencies in the pom.xml file.
+Dependencies are libraries that are used by the application. Maven can automatically download and install dependencies from a central repository.
+
+Write Java code in the appropriate source code directory.
+The Java code for the application should be written in the src/main/java directory.
+
+Build the project using mvn clean package.
+The mvn clean package command will clean the project, compile the code, and package the application into an artifact.
+
+Execute the application using the generated artifact.
+The generated artifact can be executed using a Java runtime environment.
+
+Maven provides a standardized build process for Java applications. It handles dependency management, compilation, testing, and packaging. This can help to improve the reliability and maintainability of Java applications.
+
+Here are some additional benefits of using Maven:
+
+Centralized dependency management: Maven provides a central repository for dependencies. This makes it easy to find and install dependencies.
+Automated builds: Maven can automatically build Java applications. This can save time and effort.
+Integrated testing: Maven can automatically run unit tests. This can help to ensure that the application is working correctly.
+Consistent build process: Maven provides a consistent build process for Java applications. This can help to improve the reliability of Java applications.
+
+
+
+## System Architecture and Application Design, Cloud Computing (AWS)
+
+1. Describe the role of each of these AWS Infrastructure component.
+
+| Number | Subject                     | Role                                                                 |
+| :---   | :----:                      | :---                                                                 |
+| 1      | Global backbone             | AWS global backbone network infrastructure for high-speed data transfer between regions and availability zones.                   |
+| 2      | Region                      | Geographical area with multiple availability zones where AWS resources are deployed.                                            |
+| 3      | Availability zone (AZ)      | Physically separate data centers within a region that provide redundancy and fault isolation.                                 |
+| 4      | Point of Presence (PoP)     | Physical location with networking equipment to improve the distribution of content and reduce latency for end-users.          |
+| 5      | Co-location                 | Facility where multiple organizations can house their servers and network infrastructure for improved connectivity.           |
+| 6      | Direct Connect              | Dedicated network connection between on-premises infrastructure and AWS, providing secure and reliable data transfer.        |
+| 7      | VPC                         | Virtual Private Cloud that enables you to create an isolated virtual network environment within AWS.                          |
+| 8      | Subnet                      | Subdivision of a VPC that allows you to organize resources and control network traffic between them.                          |
+| 9      | AWS Public Domain Service   | DNS service provided by AWS to route internet traffic to your public-facing resources like websites or load balancers.        |
+| 10     | Internet Gateway            | Enables communication between your VPC and the internet, allowing inbound and outbound traffic.                              |
+| 11     | NAT                         | Network Address Translation allows instances in a private subnet to connect to the internet via a public subnet and an internet gateway. |
+| 12     | Bastion Server              | A server that provides secure access to resources in a private subnet by acting as a gateway for SSH or RDP connections.     |
+
+These components play various roles in AWS infrastructure, providing connectivity, isolation, redundancy, and security for your applications and resources.
+
+2.  What role does the following AWS components play in a typical Three-tier Application design
+
+| Number | Component               | Role                                                                                                                                                            |
+| :---   | :----:                 | :---                                                                                                                                                            |
+| 1      | External Load Balancer  | Routes incoming traffic from the internet to the web tier instances, providing scalability, fault tolerance, and distributing the load among multiple instances. |
+| 2      | Internal Load Balancer  | Balances traffic between instances within the application tier, ensuring high availability and distributing the workload for improved performance.                |
+| 3      | Multiple Availability Zones (AZ) | Ensures redundancy and fault tolerance by deploying resources across multiple data centers within different availability zones.                                 |
+| 4      | Auto-scaling Group      | Automatically adjusts the number of instances in the web and application tiers based on demand, ensuring optimal resource utilization and application availability.    |
+| 5      | Web Tier                | Hosts the front-end components of the application, handles user requests, and serves static and dynamic content to users.                                        |
+| 6      | Application Tier        | Contains the business logic and processing components of the application, handling application-specific tasks and data processing.                            |
+| 7      | Database (Master)       | Stores the primary copy of the application's data, handles write operations, and ensures data integrity.                                                      |
+| 8      | Database (Slave)        | Replicates the data from the master database for read-heavy workloads, improving performance and enabling scalability by offloading read operations.             |
+
+
+3. An AWS customer wants to connect their on-premise datacenter to their VPC network in AWS. Describe the ways in which this could be achieve?
+
+To connect an on-premises datacenter to a VPC network in AWS:
+- Use AWS Site-to-Site VPN or AWS Client VPN to establish an encrypted tunnel over the internet.
+- Utilize AWS Direct Connect for a dedicated network connection with higher bandwidth and lower latency.
+- Set up AWS Transit Gateway as a central hub for connecting multiple VPCs and the on-premises network.
+- Employ AWS Direct Connect Gateway to connect multiple Direct Connect connections to different VPCs and the on-premises network.
+- Establish VPC peering to enable direct communication between the AWS VPC and the on-premises network using private IP addressing.
+- Use AWS Route 53 Resolver for seamless DNS resolution between the on-premises network and the VPC.
+
+The specific choice of connectivity method depends on factors such as bandwidth requirements, security needs, and network architecture. Customers can select the most suitable solution or combination of solutions to connect their on-premises datacenter with their AWS VPC network.
+
+4. An AWS customer can build services using components from the AWS public domain as well as services deployed in the customer's VPC and datacentre. Name some AWS services that run in the public domain and how they might be integrated with services in the VPC and in the on-premise datacentre.
+
+AWS services that run in the public domain and can be integrated with services in a customer's VPC and on-premises datacenter include:
+
+- **Amazon S3 (Simple Storage Service)**: Provides object storage in the cloud. It can be accessed from both the VPC and on-premises environments, allowing seamless storage integration between the two.
+
+- **Amazon RDS (Relational Database Service)**: Offers managed database services like MySQL, PostgreSQL, Oracle, and SQL Server. RDS databases can be accessed from both the VPC and on-premises datacenters, enabling hybrid database setups.
+
+- **Amazon Redshift**: A fully managed data warehousing service. It can be integrated with on-premises data sources and accessed from the VPC, allowing data consolidation and analysis across environments.
+
+- **AWS Lambda**: A serverless compute service. Lambdas can be triggered by events from both the VPC and on-premises systems, enabling integration and execution of serverless functions.
+
+- **Amazon SQS (Simple Queue Service)**: A fully managed message queuing service. It can be used as a communication mechanism between services in the VPC and on-premises components, facilitating decoupling and asynchronous processing.
+
+- **AWS Direct Connect**: Provides dedicated network connections between on-premises datacenters and AWS. It allows secure and reliable communication between the VPC and the on-premises network, enabling hybrid cloud architectures.
+
+- **Amazon Route 53**: A scalable and highly available DNS service. It can be used to route traffic between the VPC, on-premises resources, and public-facing services, ensuring seamless name resolution and connectivity.
+
+By leveraging these services, customers can integrate their VPC and on-premises environments with AWS services in the public domain, creating a hybrid architecture that combines the benefits of cloud computing with their existing infrastructure.
+
+5. With respect to AWS cloud services explain what each of these mean;
+
+Here is a summary of the AWS cloud service models:
+
+- **Infrastructure as a Service (IaaS)**: Provides virtualized computing resources for users to manage their own infrastructure, such as Amazon EC2 and Amazon S3.
+
+- **Platform as a Service (PaaS)**: Offers a platform for application development and management without the complexity of infrastructure management, like AWS Elastic Beanstalk and AWS Lambda.
+
+- **Software as a Service (SaaS)**: Delivers software applications over the internet, eliminating the need for local installation and maintenance, such as Amazon WorkSpaces and Amazon S3 Glacier.
+
+- **Managed Services**: Fully managed offerings that handle administrative and operational tasks for users, such as Amazon RDS and AWS Managed EKS.
+
+- **Serverless Services**: Abstract server management, enabling users to focus on code without provisioning or managing servers, like AWS Lambda and Amazon API Gateway.
+
+- **Self-Managed Services**: Require users to manage and maintain the infrastructure and software components, such as EC2 instances and Amazon EKS.
+
+
+
+6. In terms of their geographical location and distribution, AWS services can be roughly categorised as Global, Regional and Zonal. What do you understand by this classification?
+
+AWS services can be categorized as Global, Regional, and Zonal based on their geographical location and distribution:
+
+- **Global Services**: These are services that are available and accessible globally, irrespective of specific AWS regions. Examples of global services include AWS Identity and Access Management (IAM) and AWS CloudFront, which provide identity and access management and content delivery network services, respectively, across all AWS regions.
+
+- **Regional Services**: These are services that are specific to a particular AWS region. They are designed to cater to the needs of customers within that region. Examples of regional services include Amazon RDS and Amazon S3, which provide managed database and object storage services, respectively, within a specific AWS region.
+
+- **Zonal Services**: These are services that are deployed at the level of individual availability zones (AZs) within an AWS region. Availability zones are isolated data centers within a region that are designed to be independent of each other in terms of power, cooling, and networking. Zonal services operate within a single AZ and provide services with high availability and fault tolerance. Examples of zonal services include Amazon EC2 instances and Amazon RDS Read Replicas, which are deployed within specific AZs to provide compute and database replication capabilities.
+
+
+7. Complete the table below, naming some services in the corresponding category
+
+| Number      |           Global services                 | Regional services          |    Zonal services                  |
+| :---        |            :----:                         | :---                       |    :---                            |
+| 1  | AWS IAM (Identity and Access Management)         | Amazon S3                  |    Amazon EC2                      |
+| 2  | AWS CloudFront                                   | AWS Lambda                 |    Amazon RDS                      |
+| 3  | Amazon Route 53                                  | AWS Elastic Beanstalk      |    Amazon EBS                      |
+| 4  | AWS CloudFormation                               | Amazon Redshift            |    Amazon EC2 Auto Scaling         |
+| 5  | Amazon S3 Glacier                                | AWS Elastic Load Balancer  |    Amazon EFS                      |
+| 6  | AWS Direct Connect                               | Amazon RDS Aurora          |    Amazon EMR                      |
+| 7  | AWS CloudTrail                                   | AWS IoT Core               |    Amazon DynamoDB                 |
+
+
+8. What do you understand by the term <b> Authentication </b> and describe how you authentication to the following systems;
+  **Authentication** refers to the process of verifying the identity of a user or system to ensure authorized access to resources. 
+
+- **AWS Console**: Authentication to the AWS Console involves providing valid username/password credentials or using Single Sign-On (SSO) solutions like AWS Identity and Access Management (IAM) roles, federated logins, or Multi-Factor Authentication (MFA).
+- **AWS API**: Authentication to the AWS API typically involves generating an access key and secret key pair, which are used to sign API requests. This can be done through AWS IAM, where the access keys are associated with an IAM user or IAM role.
+- **Ubuntu server running in AWS using SSH keys**: Authentication to an Ubuntu server in AWS involves generating an SSH key pair, where the public key is added to the server's authorized keys file, and the private key is used for authentication when connecting via SSH.
+  
+9. What do you understand by the term <b> Authorisation </b> and describe how you might set up authorisation to the following systems;
+  
+  **Authorization** refers to the process of granting or denying access to resources based on the authenticated identity and the permissions associated with that identity.
+
+- **AWS Console**: Authorization in the AWS Console is managed through AWS Identity and Access Management (IAM). It involves creating IAM policies that define the permissions and access levels for individual IAM users or groups. These policies can control access to specific AWS services, resources, or actions.
+
+- **AWS API**: Authorization to the AWS API is enforced using AWS IAM policies as well. By configuring IAM policies, you can grant or restrict access to specific API actions and resources based on the IAM user or role's permissions. IAM policies can be attached to users, groups, or roles to control API access.
+
+- **An AWS Linux server**: Authorization on an AWS Linux server can be set up by managing user accounts, groups, and file permissions. Users can be added to specific groups, and group permissions can be configured using file system permissions (such as chmod) to control access to files and directories. Additionally, tools like AWS Identity and Access Management (IAM) can be used to manage SSH access to the server, allowing only authorized users to connect.
+
+10. Explain what these two AWSCLI commands do. What could you say about the relation between a security group and an EC2 instance?
+
+```
+1) aws ec2 create-security-group --group-name MySecurityGroup --description "My security group" --vpc-id vpc-1a2b3c4d
+
+2) aws ec2 modify-network-interface-attribute --network-interface-id eni-686ea200 --attachment AttachmentId=eni-attach-43348162,DeleteOnTermination=false
+```
+
+Relation between a security group and an EC2 instance:
+A security group acts as a virtual firewall that controls inbound and outbound traffic for an EC2 instance. It acts as a rule set that defines which network traffic is allowed to access the EC2 instance. Each EC2 instance must be associated with one or more security groups. The security group rules define the protocols, ports, and IP ranges that are allowed to access the EC2 instance. The security group and EC2 instance are tightly linked, as the security group rules apply specifically to the associated EC2 instance, ensuring that only authorized traffic is allowed to reach the instance.
+
+1)  creates a new security group in AWS EC2
+
+2)  Modifies the attributes of a network interface in AWS EC2
+
+
+## Site Reliability Engineering (SRE), Troubleshooting, Observability
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+
+
+## DevOps and Agile Transformation principles and methodology
+
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+
+
+## New commands logs - Enter up to ten new commands you have learnt this week
+
+| Number      | Commands | What does it do and how might you check its effect     |
+| :---        |    :----:   | :---  |
+| 1  | XXXXXXXX       | YYYYYYYY   |
+| 2  | XXXXXXXX       | YYYYYYYY   |
+| 3  | XXXXXXXX       | YYYYYYYY   |
+| 4  | XXXXXXXX       | YYYYYYYY   |
+| 5  | XXXXXXXX       | YYYYYYYY   |
+| 6  | XXXXXXXX       | YYYYYYYY   |
+| 7  | XXXXXXXX       | YYYYYYYY   |
+| 8  | XXXXXXXX       | YYYYYYYY   |
+| 9  | XXXXXXXX       | YYYYYYYY   |
+| 10 | XXXXXXXX       | YYYYYYYY   |
+
+## Glossary of the week - Enter new technical words you have learnt this week and their meanings.
+
+| Number   | Word | Meaning     |
+| :---     | :----:   |  :---  |
+| 1  | XXXXXXXX       | YYYYYYYY   |
+| 2  | XXXXXXXX       | YYYYYYYY   |
+| 3  | XXXXXXXX       | YYYYYYYY   |
+| 4  | XXXXXXXX       | YYYYYYYY   |
+| 5  | XXXXXXXX       | YYYYYYYY   |
+| 6  | XXXXXXXX       | YYYYYYYY   |
+| 7  | XXXXXXXX       | YYYYYYYY   |
+| 8  | XXXXXXXX       | YYYYYYYY   |
+| 9  | XXXXXXXX       | YYYYYYYY   |
+| 10 | XXXXXXXX       | YYYYYYYY   |
+
+
