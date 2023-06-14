@@ -1,20 +1,23 @@
+My name is Oluafunbi fagbohun and this is my assignment6 submission.
+
+
+
 ## Key learnings, experience and your main selling points.
 
 This section will be used to write your profile for your CV. So record your key learnings and experience on a weekly basis so we can track your progress and learning.
 
 | Number      |           Subject              | What you have learnt this week and how might you describe this at an interview?   |
 | :---        |            :----:              | :---  |
-| 1  | Collaboration                           | YYYYYYYY   |
-| 2  | Communication                           | YYYYYYYY   |
-| 3  | Automation/CICD                         | YYYYYYYY   |
-| 4  | AWS                                     | YYYYYYYY   |
-| 5  | Kubernetes                              | YYYYYYYY   |
-| 6  | Terraform                               | YYYYYYYY   |
-| 7  | Linux                                   | YYYYYYYY   |
-| 8  | System and Application Design           | YYYYYYYY   |
-| 9  | Productivity                            | YYYYYYYY   |
-| 10 | Yourself and your abilities             | YYYYYYYY   |
-
+| 1| Collaboration| I am a highly collaborative individual with a proven ability to work effectively with others. I am able to listen to and understand different perspectives, and I am always willing to compromise and find solutions that work for everyone involved|
+|2| Communication|I am an excellent communicator, both verbally and in writing. I am able to clearly and concisely communicate complex ideas to both technical and non-technical audiences|
+|3 |Automation/CICD| I have experience with a variety of automation and CICD tools, including Jenkins, Ansible, and Terraform. I am able to use these tools to automate tasks, improve efficiency, and reduce human error|
+|4 | AWS| I have experience with a variety of AWS services, including EC2, S3, RDS, and Lambda. I am able to use these services to build and deploy scalable, reliable, and secure applications|
+|5 | Kubernetes: I have experience with Kubernetes, a container orchestration system. I am able to use Kubernetes to deploy and manage containers at scale|
+|6 | Terraform| I have experience with Terraform, an infrastructure as code tool. I am able to use Terraform to create and manage infrastructure resources in a variety of cloud providers|
+|7 |\Linux| I am proficient in Linux, and I have experience with a variety of Linux distributions, including Ubuntu, CentOS, and Debian.
+|8 |System and Application Design: I have experience with system and application design. I am able to design systems that are scalable, reliable, and secure. I am also able to design applications that are user-friendly and efficient|
+|9 |Productivity| I am a highly productive individual who is able to work independently and as part of a team. I am able to meet deadlines and work under pressure.
+|10 |Yourself and your abilities: In addition to the skills listed above, I am also a hard worker, a quick learner, and a team player. I am confident that I have the skills and abilities necessary to be successful in this role.
 
 ## Kubernetes, Docker, Containerisation and Virtualisation
 
@@ -45,9 +48,30 @@ This section will be used to write your profile for your CV. So record your key 
 
 ## System Architecture and Application Design, Cloud Computing (AWS)
 
- 1. You have recently joined an organisation and your boss asked your to review centralised Identity and Key management systems with a view to centralising 
-the management of SSH keys. She suggests that you look into FreeIPA, LDAP, Active Directory. Research these products and describe how they might solve your problems.
+ 1. FreeIPA
 
+FreeIPA is an open source identity and access management system that provides a central repository for user, group, and host information. It also supports SSH key management, which allows users to securely access remote systems without having to manage their own SSH keys. FreeIPA is a good choice for organizations that want to centralize their identity and access management, but don't want to pay for a commercial solution.
+
+LDAP
+
+Lightweight Directory Access Protocol (LDAP) is a directory service protocol that allows users to store and access information about objects, such as users, groups, and devices. LDAP is not a complete identity and access management system, but it can be used as a component of a larger system. LDAP is a good choice for organizations that want to centralize their user information, but don't need a full-featured identity and access management system.
+
+Active Directory
+
+Active Directory (AD) is a directory service that is included with Microsoft Windows Server. AD is a full-featured identity and access management system that supports user, group, and computer management, as well as SSH key management. AD is a good choice for organizations that use Microsoft Windows and want a comprehensive identity and access management solution.
+
+Which system is right for you?
+
+The best system for you will depend on your specific needs and requirements. If you are looking for a free and open source solution, FreeIPA is a good choice. If you are looking for a more comprehensive solution, Active Directory is a good choice. If you are not sure which system is right for you, consult with an IT professional.
+
+How can these systems solve your problems?
+
+These systems can solve your problems by centralizing the management of SSH keys. This can help to improve security by making it more difficult for unauthorized users to access your systems. It can also help to improve efficiency by making it easier for users to manage their SSH keys.
+
+Here are some specific ways that these systems can solve your problems:
+
+Improve security: By centralizing the management of SSH keys, you can reduce the risk of unauthorized access to your systems. This is because only authorized users will be able to access the central repository of SSH keys.
+Improve efficiency: By centralizing the management of SSH keys, you can make it easier for users to manage their SSH keys. This is because users will only need to manage their SSH keys in one place, rather than having to manage them on each individual system that they access.
 
 
 
